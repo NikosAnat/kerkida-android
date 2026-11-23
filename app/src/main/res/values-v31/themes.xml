@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The opening screen is plain navy, and the logo then forms on it. -->
+    <style name="Theme.Kerkida" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/kerkida_paper</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBackground">@color/kerkida_navy</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+    </style>
+    <style name="Theme.Kerkida.SplashDark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/kerkida_night</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBackground">@color/kerkida_navy</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+    </style>
+    <style name="Theme.Kerkida.SplashLight" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/kerkida_paper</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBackground">@color/kerkida_navy</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+    </style>
+</resources>
